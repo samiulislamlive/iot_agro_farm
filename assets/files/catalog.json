@@ -1,0 +1,30 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Temperature",
+      "desc": "The temperature of the Farm",
+      "image":
+      "https://media.istockphoto.com/vectors/thermometer-illustration-vector-in-flat-design-vector-id1184482788?k=6&m=1184482788&s=612x612&w=0&h=RGn9UlYCeRBqLVqAjVGyuSgUd4ZRdMUJk4AT9ZJhUX8="
+    },
+    {
+      "id": 2,
+      "name": "Humidity",
+      "desc": "The Humidity of the farm",
+      "image": "https://st4.depositphotos.com/7968596/25400/v/950/depositphotos_254008784-stock-illustration-humidity-icon-simple-element-illustration.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Moisture Level",
+      "desc": "Moisture level of the soil",
+      "image": "https://thumbs.dreamstime.com/b/moisture-icon-vector-filled-flat-sign-solid-pictogram-isolated-white-symbol-logo-illustration-moisture-icon-vector-100622181.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Trespassing",
+      "desc": "Checking if someone is trespassing",
+      "image": "https://media.istockphoto.com/vectors/sign-man-silhouette-in-crossed-out-red-circle-vector-icon-vector-id904817630?k=6&m=904817630&s=612x612&w=0&h=wdQBribucgZ6AHy_pl7IkEU47vtjSUrwTAsxh7eltNg="
+    }
+
+  ]
+}

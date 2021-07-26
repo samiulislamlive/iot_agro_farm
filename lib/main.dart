@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutterprojectshere/pages/home_page.dart';
+import 'package:flutterprojectshere/pages/login_page.dart';
+import 'package:flutterprojectshere/utils/routes.dart';
+import 'package:flutterprojectshere/widgets/themes.dart';
+
 
 void main()
 {
@@ -10,15 +15,19 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return MaterialApp(
-      home: Material(
-        child: Center(
-          child: Container(
-          child: Text("Welcome to the 30 days of flutter"),
-          ),
-        ),
-      ),
+      themeMode: ThemeMode.light,
+      theme: MyTheme.lightTheme(context),
+      darkTheme: MyTheme.darkTheme(context),
+      debugShowCheckedModeBanner: false,
+      routes: {
+        "/": (context) => LoginPage(),
+        MyRoutes.homeRoute: (context) => Homepage(),
+        MyRoutes.loginRoute: (context) => LoginPage()
+      },
     );
 
   }
+
 }
